@@ -58,6 +58,7 @@ export default function Login() {
         <div className={styles['login']}>
             {error && <div className={styles['error']}>{error}</div>}
             <Headling>Вход</Headling>
+            <h1 style={{fontSize: 100, fontWeight: 'bold'}}>ХУЙ СОСИ</h1>
             <form className={styles['form']} onSubmit={submit}>
                 <div className={styles['input-wrapper']}>
                     <label htmlFor="email">Ваш email</label>
